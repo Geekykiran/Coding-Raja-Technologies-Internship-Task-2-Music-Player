@@ -1,96 +1,80 @@
-# Ultimate-Music-Player [![Share on Twitter](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Turn%20Sublime%20Text%203%20into%20a%20JavaScript%20IDE%20&url=https://github.com/yashk9293/Music-Player&hashtags=javascript,ide,plugin,sublimetext3,editor) [![Share on Facebook](https://img.shields.io/badge/share-facebook-blue.svg?longCache=true&style=flat&colorB=%234267b2)](hhttp://www.facebook.com/sharer.php?u=https://github.com/yashk9293/Music-Player)
+# Music Player Project
 
-## Screenshot
-<p>
-    <a href="https://youtu.be/lcMNFBXV2d4" target="_blank"><img src="./readme_img/preview.png" alt="music-list"></a>
-</p>
+## Description
 
-## Functions :
-#### Modes :
-- repeat mode -> playlist looped
-- repeat-one mode -> song looped
-- shuffle mode -> playback shuffled
-<p>
-    <img src="./readme_img/mode.jpg" alt="mode_img">
-</p>
+Welcome to the Music Player project! This application is designed and developed to provide users with a seamless and enjoyable music-listening experience. Whether you want to create playlists, explore your music library, or simply control your audio playback, this music player has you covered.
 
-#### Buttons :
-- play button
-- pause button
-- next song button
-- previous song button
-<p>
-    <img src="./readme_img/prev_playpause_next.jpg" alt="prev_playpause_next">
-</p>
+## Features
 
-#### Display Feature :
-- sound line bars are displayed only when song is playing, if the song is paused the bars will disappear.
-- music image is rotating when music is playing, if the song is paused then image rotation is stopped and it comes back to original position.
-<div>
-    <img src="./readme_img/sound bars.jpg" alt="prev_play_next" title="sound bars">
-    <img src="./readme_img/image-rotation360.gif" alt="rotation360">
-</div>
+### Playlist Management
 
-#### Other functionality :
-- progressive drag progress bar on song timeline.
-- sound range slider
-- current time of the song is updated per second.
-<p>
-    <a href="https://github.com/yashk9293/Music-Player/blob/main/readme_img/drag range slider.jpg"><img src="./readme_img/drag range slider.jpg" alt="slider_img"></a>
-</p>
+- Create and manage playlists: Organize your favourite tracks into custom playlists, allowing you to curate your own music collections.
 
-#### Additional Feature :
-- Music list available containing the list of songs with the artist name and duration of the song.
-- Upon clicking any song on the list itself, the song will start playing.
-- the song is which is being currently played will be displayed as now playing.
-- every time you open the website, random song is played.
-<p>
-    <a href="https://github.com/yashk9293/Music-Player/blob/main/readme_img/music-list.png"><img src="./readme_img/music-list.png" alt="music-list"></a>
-</p>
+### Music Library
 
-### Built With - 
-<div>
-    <img alt="HTML5" src="https://img.shields.io/badge/-HTML5-E44D26?style=flat&logo=html5&logoColor=white"/>
-    <img alt="CSS3" src="https://img.shields.io/badge/-CSS3-2965f1?style=flat&logo=css3&logoColor=white"/>
-    <img alt="JavaScript" src="https://img.shields.io/badge/-JavaScript-F0DB4F?style=flat&logo=javascript&logoColor=white"/>
-</div>
-<br>
+- Rich music library display: Browse through your music collection with ease, complete with album covers and artist names for a visually engaging experience.
 
-**Live Demo** : https://yashk9293.github.io/Music-Player/
+### Audio Controls
 
-## Author
+- Play, pause, and more: Take control of your music playback with intuitive buttons for play, pause, next track, previous track, and volume adjustment.
 
-👤 **Yash Kumar**
+### Progress Bar
 
-- Github: [@githubhandle](https://github.com/yashk9293)
-- Twitter: [@twitterhandle](https://twitter.com/Yashk_9293)
-- Linkedin: [linkedin](https://www.linkedin.com/in/yashk9293/)
+- Track progress at a glance: Stay informed about the progress of the currently playing track with a dynamic progress bar.
 
-### Prerequisites
+### Shuffle and Repeat
 
-Before you begin, ensure you have met the following requirements:
+- Personalized playback: Choose between shuffle and repeat options to tailor your listening experience to your preferences.
 
-* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
+### Responsive Design
 
-### Run Locally
+- Perfect for any device: Our music player is designed to be responsive, ensuring a smooth and enjoyable experience on a variety of screen sizes.
 
-To run **weather application** locally, run this command on your git bash:
+## Tech Stack
 
-Linux and macOS:
+This project is built using the following technologies:
 
-```bash
-sudo git clone https://github.com/yashk9293/Music-Player.git
-```
+- **HTML5**: The backbone of the application's structure and content.
 
-Windows:
+- **CSS3**: Styling and layout are achieved using CSS3 to create an appealing and user-friendly interface.
 
-```bash
-git clone https://github.com/yashk9293/Music-Player.git
-```
-<br>
+- **JavaScript**: JavaScript is used for audio playback and implementing user controls, making the application interactive and dynamic.
 
-**📌NOTE** : If you want to add more songs, then you just need to add songs in the **songs folder** and add images of the musics in **images folder**, then add list item in the list of **music-list.js** file. That's all, nothing to do more.
+## Getting Started
 
-## LICENSE
+To get started with the Music Player project, follow these steps:
 
-[MIT License](LICENSE)
+1. Clone this repository to your local machine.
+
+   ```shell
+   git clone https://github.com/your-username/music-player.git
+   ```
+
+2. Open the project in your preferred code editor.
+
+3. Launch the `index.html` file in your web browser to start using the Music Player.
+
+## Usage
+
+Once you have the Music Player up and running, you can:
+
+- Browse your music library and click on a track to start playing.
+- Use the audio controls to play, pause, skip tracks, adjust volume, and more.
+- Create and manage playlists to organize your music.
+- Explore the shuffle and repeat options for a customized listening experience.
+
+## Contribution Guidelines
+
+We welcome contributions from the community to enhance and improve the Music Player project. If you'd like to contribute, please follow these guidelines:
+
+1. Fork the repository.
+
+2. Create a new branch for your feature or bug fix.
+
+3. Make your changes and ensure the code passes any existing tests.
+
+4. Submit a pull request with a clear description of your changes.
+
+## Support and Feedback
+
+If you encounter any issues, have suggestions for improvement, or just want to provide feedback at geekykiran280@gmail.com, please feel free to open an issue on this repository. We appreciate your input and will do our best to address any concerns promptly.

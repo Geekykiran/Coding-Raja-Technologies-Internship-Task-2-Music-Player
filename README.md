@@ -47,7 +47,7 @@ To get started with the Music Player project, follow these steps:
 1. Clone this repository to your local machine.
 
    ```shell
-   [git clone https://github.com/your-username/music-player.git](https://github.com/Geekykiran/Coding-Raja-Technologies-Internship-Task-2-Music-Player.git)
+   https://github.com/Geekykiran/Coding-Raja-Technologies-Internship-Task-2-Music-Player.git
    ```
 
 2. Open the project in your preferred code editor.
